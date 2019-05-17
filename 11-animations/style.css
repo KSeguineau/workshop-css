@@ -1,16 +1,32 @@
-@keyframes superAnimation {
-  from {
-    width: 100px;
-  }
 
-  to {
-    width: 100%
-  }
-}
+.carre{
+  margin: 180px;
+  width: 200px;
+  height: 200px;
+  background-color: red;
 
-main {
-  background-color: beige;
-  animation-name: superAnimation;
+  animation-name: rotation;
   animation-duration: 10s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
+
 }
+
+.carre:hover{
+  background-color: blue;
+  width:300px;
+  transition-duration: 0.5s;
+}
+
+@keyframes rotation{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
