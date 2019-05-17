@@ -7,9 +7,9 @@ h1{
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  Helvetica, Arial;
     text-align: center;
-    background-color: darkblue;
+    background-color:#000099;
     padding: 0 10% ;
     font-size: 2rem;
 }
